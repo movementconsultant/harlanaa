@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upcoming events, reunions, and milestones for the John Marshall Harlan High School Alumni Association.">
+    <title>Events & Milestones | JMHAA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                <div class="logo-text">
+                    <span class="logo-main">JMHAA</span>
+                    <span class="logo-sub">Est. 2001</span>
+                </div>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="support.html">Support Harlan</a></li>
+                    <li><a href="contact.html" class="btn btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Hero -->
+        <section class="hero" style="padding: 4rem 0 6rem 0;">
+            <div class="container hero-content">
+                <h1>Events & Milestones</h1>
+                <p>Celebrating our history and building our future together. Join us at our upcoming gatherings.</p>
+            </div>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section class="section fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Upcoming Gatherings</h2>
+                    <div class="divider"></div>
+                    <p class="section-subtitle">Mark your calendars and reconnect with your fellow Falcons.</p>
+                </div>
+                
+                <div class="events-list" style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 800px; margin: 0 auto;">
+                    
+                    <!-- Event 1 -->
+                    <article class="event-card" style="display: flex; background: var(--white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); border-left: 4px solid var(--navy);">
+                        <div class="event-date" style="background-color: var(--light-gray); padding: 1.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 100px; text-align: center; border-right: 1px solid #e2e8f0;">
+                            <span class="month" style="font-size: 0.85rem; font-weight: 700; color: var(--navy); letter-spacing: 1px;">JUL</span>
+                            <span class="day" style="font-size: 2rem; font-weight: 900; color: var(--navy); line-height: 1;">26</span>
+                            <span class="year" style="font-size: 0.8rem; color: var(--text-light);">2026</span>
+                        </div>
+                        <div class="event-details" style="padding: 1.5rem; flex: 1;">
+                            <h3 style="font-family: var(--font-heading); color: var(--navy); margin-bottom: 0.5rem;">JMHAA All Class Reunion Picnic</h3>
+                            <p class="event-location" style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 1rem; font-weight: 500;">📍 Abbott Park / Harlan Community Academy Track Field<br>9652 S Michigan Avenue, Chicago, Illinois</p>
+                            <p>Join us for our annual all-class picnic! Food, music, and memories. All alumni, faculty, and families are welcome to celebrate our shared Falcon pride.</p>
+                            <a href="mailto:jmhaa62@gmail.com?subject=Reunion%20Picnic%20Info" class="text-link">Request More Info →</a>
+                        </div>
+                    </article>
+
+                    <!-- Event 2 -->
+                    <article class="event-card" style="display: flex; background: var(--white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); border-left: 4px solid var(--gold);">
+                        <div class="event-date" style="background-color: var(--light-gray); padding: 1.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 100px; text-align: center; border-right: 1px solid #e2e8f0;">
+                            <span class="month" style="font-size: 0.85rem; font-weight: 700; color: var(--navy); letter-spacing: 1px;">TBA</span>
+                            <span class="day" style="font-size: 1.5rem; font-weight: 900; color: var(--navy); line-height: 1;">2026</span>
+                        </div>
+                        <div class="event-details" style="padding: 1.5rem; flex: 1;">
+                            <h3 style="font-family: var(--font-heading); color: var(--navy); margin-bottom: 0.5rem;">Class of 1976 – 50 Year Milestone Celebration</h3>
+                            <p class="event-location" style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 1rem; font-weight: 500;">📍 Location To Be Announced</p>
+                            <p>A special evening honoring the 50th anniversary of the Class of 1976. Details, ticketing, and registration information coming soon.</p>
+                            <a href="mailto:jmhaa62@gmail.com?subject=Class%20of%201976%20Milestone%20Updates" class="text-link">Join Updates List →</a>
+                        </div>
+                    </article>
+
+                    <!-- Event 3 -->
+                    <article class="event-card" style="display: flex; background: var(--white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); border-left: 4px solid var(--navy);">
+                        <div class="event-date" style="background-color: var(--light-gray); padding: 1.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 100px; text-align: center; border-right: 1px solid #e2e8f0;">
+                            <span class="month" style="font-size: 0.85rem; font-weight: 700; color: var(--navy); letter-spacing: 1px;">TBA</span>
+                            <span class="day" style="font-size: 1.2rem; font-weight: 900; color: var(--navy); line-height: 1;">2025-2026</span>
+                        </div>
+                        <div class="event-details" style="padding: 1.5rem; flex: 1;">
+                            <h3 style="font-family: var(--font-heading); color: var(--navy); margin-bottom: 0.5rem;">Annual Career Day</h3>
+                            <p class="event-location" style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 1rem; font-weight: 500;">📍 John Marshall Harlan Community Academy High School</p>
+                            <p>Alumni return to mentor current students, share career paths, and inspire the next generation of Falcons. Volunteers are always needed!</p>
+                            <a href="mailto:jmhaa62@gmail.com?subject=Career%20Day%20Volunteer" class="text-link">Volunteer to Speak →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Fallen Falcons Tribute -->
+        <section class="section bg-light fade-in">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Fallen Falcons</h2>
+                    <div class="divider"></div>
+                    <p class="section-subtitle">Never forgotten. Honoring the alumni and faculty who have transitioned.</p>
+                </div>
+                <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                    <p>We hold a special place in our hearts for the members of the Harlan family who are no longer with us. Their contributions to our school and community live on through the legacy they left behind.</p>
+                    <p>If you wish to submit a name for our Fallen Falcons memorial or share a memory, please reach out to the board.</p>
+                    <a href="mailto:jmhaa62@gmail.com?subject=Fallen%20Falcons%20Submission" class="btn btn-primary" style="margin-top: 1.5rem;">Submit a Name or Memory</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section bg-navy text-white fade-in">
+            <div class="container">
+                <div class="cta-content" style="text-align: center; max-width: 600px; margin: 0 auto;">
+                    <h2 style="color: var(--white);">Don't Miss Out</h2>
+                    <p style="color: rgba(255, 255, 255, 0.8);">Join the JMHAA mailing list to receive direct updates on event dates, locations, and ticket information.</p>
+                    <a href="contact.html" class="btn btn-primary">Join Mailing List</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="logo-main">JMHAA</span>
+                <p>John Marshall Harlan High School Alumni Association, NFP</p>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+                <a href="support.html">Support</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-legal">
+                <p>&copy; 2024 John Marshall Harlan High School Alumni Association, NFP. All Rights Reserved.</p>
+                <p>This organization is not affiliated with any for-profit organizations or individual classes using the John Marshall Harlan High School name.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
