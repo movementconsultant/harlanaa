@@ -226,3 +226,18 @@ a { text-decoration: none; color: inherit; transition: color 0.3s ease; }
     .hero-actions { flex-direction: column; }
     .btn { width: 100%; }
 }
+
+/* --- Board Member Profile Styles --- */
+.board-card { text-align: center; padding: 2rem 1.5rem; }
+.board-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem auto;
+    border: 3px solid var(--gold);
+    object-fit: cover;
+    background-color: var(--light-gray);
+}
+.board-name { font-size: 1.25rem; margin-bottom: 0.25rem; color: var(--navy); }
+.board-class { font-size: 0.9rem; color: var(--text-light); font-weight: 600; margin-bottom: 0.5rem; display: block; }
+.board-title { font-size: 0.95rem; color: var(--navy); font-weight: 500; font-style: italic; }
